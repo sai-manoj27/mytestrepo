@@ -1,0 +1,66 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:UTC
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=nikita.kanojiya@coforge.com:mailto:nikita.kanojiya@coforge.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=dupatisaimanoj@gmail.com:mailto:dupatisaimanoj@gmail.com
+UID:87489d76-f825-4a7b-8095-12628d004ad8nikita.kanojiya@coforge.com20220609143522
+DESCRIPTION;LANGUAGE=en-US:<!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+ </head>
+ <body style="margin:0 auto;">
+ <div id="applicant_name">
+ <p> Sai Manoj Dupati,</p>
+ </div>
+ <div id="greeting">
+ <p>Below are the interview details</p>
+ </div>
+ <div id ="mailContent">
+ <div><br/>Interview Round: Technical 1<br></div></p>
+ <div>Interview Mode  Video-Conference</div></p>
+ <div></div></p>
+ <div> <a style='padding:8px 15px; margin-bottom: 0px; border-radius: 4px; background-color: #2889CA;color: white; font-weight: normal;font-size: 15px;text-decoration: none;line-height: 3;white-space: nowrap' href=https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTM3NDE1NDEtMTU0Ny00MjUyLWFiMjEtZGQwMDBhOThjN2Y4%40thread.v2/0?context=%7b%22Tid%22%3a%22b727a530-a0d5-4fb8-bd40-d8f9763e97db%22%2c%22Oid%22%3a%22e8847006-117f-4abf-9f2f-8bf31e24f935%22%7d>Join Microsoft Teams Meeting</a></div></p>
+ </div>
+ <div id="thanks">
+ <p><br/>Thanks!</p></div>
+ </body>
+ </html>
+SUMMARY;LANGUAGE=en-US:Video-Conference: Technical 1 of DATA ENGINEER
+DTSTART;TZID=UTC:20220612T053000
+DTEND;TZID=UTC:20220612T060000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20220609T143532Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
